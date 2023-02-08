@@ -29,3 +29,75 @@ aside{
 article{
     background-color: purple;
 }
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+header{
+    background-color: green;
+
+}
+
+main{
+    background-color: blue;
+}
+
+section{
+    background-color: orange;
+}
+
+aside{
+    background-color: yellow;
+}
+
+article{
+    background-color: purple;
+}
+nav>ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+nav>ul>li{
+    float: left;
+}
+nav>ul>li>a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+li a:hover{
+color: #363636;
+}
+bobo{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+}
+h1{
+    font-family: 'Roboto Serif', serif; font-weight: 300;
+}
+
+p,h2,h3,h4,h5,a{
+    font-family: 'Roboto Serif', serif; font-weight: 400;
+}
+
+h3,h4,h5{
+    font-family: 'Roboto Serif', serif;font-weight: 700;
+}
+main{
+    height: 0;
+}
+
+#james{
+float: left;
+width: 200px;
+padding-right: 10px;
+}
