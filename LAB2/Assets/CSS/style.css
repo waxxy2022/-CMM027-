@@ -1,4 +1,4 @@
-@import "templatecolours.css";
+/*@import "templatecolours.css";*/
 
 
 
@@ -6,56 +6,22 @@ body{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
+    
 }
 
-header{
-    background-color: green;
 
-}
 
-main{
-    background-color: blue;
-}
 
-section{
-    background-color: orange;
-}
-
-aside{
-    background-color: yellow;
-}
-
-article{
-    background-color: purple;
-}
 body{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
+   
 }
 
-header{
-    background-color: green;
 
-}
 
-main{
-    background-color: blue;
-}
 
-section{
-    background-color: orange;
-}
-
-aside{
-    background-color: yellow;
-}
-
-article{
-    background-color: purple;
-}
 nav>ul{
     list-style-type: none;
     padding: 0;
@@ -103,16 +69,16 @@ padding-right: 10px;
 }
 
 
-footer {
+footer p {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    color: black;
     text-align: center;
+    
   }
-
+  
   aside p h3 h4{
 margin: 0;
   }
@@ -141,4 +107,25 @@ aside{
 
 main{
     padding-right: 0px !important;
+}
+
+h1{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 13px;
+}
+
+a{
+    font-size: 13px;
 }
