@@ -1,6 +1,61 @@
-nav ul{
+nav>ul{
  list-style-type: none;
  padding: 0;
  margin: 0;
  overflow: hidden;
 }
+
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+nav>ul>li{
+    float: left;
+}
+
+nav>ul>li>a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+li a:hover{
+    color: blue
+    }
+    p,h2,h3,h4,h5,a{
+        font-family: 'Roboto Serif', serif; font-weight: 400;
+    }
+
+    footer p {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: black;
+        text-align: center;
+    }
+
+    p{
+        padding-left: 60px;
+        text-emphasis: none;
+        text-align: right
+    }
+    h1{
+text-align: center;
+    }
