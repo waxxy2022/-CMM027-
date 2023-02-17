@@ -25,13 +25,14 @@ body{
 
 nav>ul>li{
     float: left;
+    padding-bottom: 10px;
 }
 
 nav>ul>li>a{
     display: block;
     color: black;
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-decoration: none;
 
 }
@@ -52,9 +53,9 @@ li a:hover{
     }
 
     p{
-        padding-left: 60px;
+        text-align: center;
         text-emphasis: none;
-        text-align: right
+       
     }
     h1{
 text-align: center;
