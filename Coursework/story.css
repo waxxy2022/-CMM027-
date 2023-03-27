@@ -1,0 +1,264 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Google Sans Regular";
+  box-sizing: border-box;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px 10px 10px;
+}
+.head-img {
+  height: 50px;
+  width: 100px;
+}
+@media screen and (max-width: 550px) {
+  .head h1 {
+    font-size: 20px;
+    text-align: right;
+  }
+}
+nav {
+  display: flex;
+  background: #666;
+  flex-wrap: wrap;
+}
+
+.links {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: 0.4s;
+}
+.links:hover {
+  background-color: #000;
+  color: #fff;
+}
+span {
+  padding-left: 5px;
+  font-size: 15px;
+}
+.drop-btn {
+  /* background: #04aa6d; */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 37px;
+  /* left: 390px; */
+  background: #fff;
+  /* width: 150px; */
+  z-index: 1;
+  transition: 0.4s;
+  box-shadow: 0px 0px 10px 0px #555;
+}
+.dropdown-content a {
+  color: #000;
+  padding: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #000;
+  color: #fff;
+}
+.dropdown-content:hover {
+  /* background: #ddd; */
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover span {
+  rotate: 180deg;
+}
+.main {
+  padding: 10px;
+}
+.main h1 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.title {
+  margin-bottom: 5px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px;
+  outline: none;
+}
+.title::placeholder {
+  color: rgb(51, 50, 50);
+}
+textarea {
+  padding-left: 10px;
+  font-size: 20px;
+  outline: none;
+  color: #000;
+}
+textarea::placeholder {
+  color: rgb(51, 50, 50);
+}
+.post {
+  float: left;
+  margin-left: auto;
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.post:hover {
+  background-color: rgb(13, 8, 70);
+  color: white;
+}
+select {
+  width: 150px;
+  font-size: 20px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: auto;
+}
+.edit {
+  width: 25px;
+  height: 25px;
+  border: 1px solid grey;
+  padding: 5px;
+}
+img {
+  width: 100%;
+  height: 300px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.read-now {
+  display: flex;
+  height: 40px;
+  width: 150px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #4229d1;
+  transition: 0.4s;
+}
+.read-now:hover {
+  background: #4229d1;
+  color: #fff;
+}
+.Retrieve {
+  display: flex;
+  height: 40px;
+  width: 150px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #4229d1;
+  transition: 0.4s;
+  float: right;
+  position: relative;
+  bottom: 50px;
+}
+@media screen and (max-width: 750px) {
+  .Retrieve {
+    float: none;
+    position: relative;
+    bottom: 0px;
+  }
+}
+.Retrieve:hover {
+  background: #4229d1;
+  color: #fff;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+  padding: 50px;
+  gap: 15px;
+  /* flex-wrap: wrap; */
+}
+
+.column {
+  flex: 50%;
+}
+.column {
+  float: left;
+}
+@media screen and (max-width: 540px) {
+  .column h1 {
+    font-size: 20px;
+  }
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+.pata {
+  display: flex;
+  align-items: center;
+  border: 5px solid blue;
+  font-size: 40px;
+}
+.pata:hover {
+  background-color: white;
+  color: rgb(219, 11, 74);
+}
+.panther {
+  text-align: center;
+}
+/* Current/active navbar link */
+.active {
+  background-color: #4229d1;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .row {
+    padding: 20px;
+  }
+  img {
+    width: 100%;
+    height: 100px;
+  }
+  .pata {
+    font-size: 15px;
+  }
+}

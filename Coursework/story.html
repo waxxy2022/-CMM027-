@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="story.css">
+</head>
+
+<body>
+    <div class="head">
+        <img class="head-img" src="story.png" alt="">
+        <h1>Story Seekers and Story Teller</h1>
+    </div>
+    <nav>
+        <a class="links" href="index.html">Home</a>
+        <a class="links" href="about.html">About</a>
+        <!-- <a class="links" href="">Page Store</a> -->
+        <div class="dropdown">
+            <p class="drop-btn">login<span>&#9660;</span></p>
+            <div class="dropdown-content">
+                <a href="adminlogin.html">Administrator Login</a>
+                <a href="login.html">Login(Users)</a>
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <p class="drop-btn">Page Store<span>&#9660;</span></p>
+            <div class="dropdown-content">
+                <a href="" title="click on the pen icon to edit">Editing Stories</a>
+                <a href="#filter">Stories Filter</a>
+                <a href="#sign">Uploading Stories</a>
+                <a href="#retrieve">Retrieving Stories</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <p class="drop-btn">Other Pages<span>&#9660;</span></p>
+            <div class="dropdown-content">
+                <a href="">Admin Panel</a>
+                <a href="">Review and Manage Page</a>
+                <!-- <a href="#sign">Sign Up</a> -->
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="main">
+        <h1>Read Our list of Stories or feel free to write one yourself</h1>
+        <form action="poster.php" method="post" >
+            <input type="text" placeholder="Title" class="title" name="Texter">
+            <textarea name="Postme" id="" cols="30" rows="10" placeholder="write a story..."></textarea>
+            <div>
+                <input type="file" name="fileToUpload" id="fileToUpload">
+              
+            </div>
+           
+            <input type="submit" value="Post" class="post">
+        </form>
+        
+        <select name="" id="filter">
+            <option value="">Filter</option>
+            <option value="">Recent</option>
+            <option value="">Popular</option>
+            <option value="">New</option>
+            <option value="">old</option>
+        </select>
+    </div>
+
+
+
+    <div class="row">
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="av1.jpg" alt=""><br>
+
+            <!-- <button class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Henry<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>How i won lottery in Gambia I was already a professional social worker when I entered the Peace Corps in 1980, so I wasn’t anticipating that my experience serving in The Gambia would change the course of my career.</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve" id="retrieve">Retrieve</a>
+        </div>
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="Walls-of-Benin.jpg" alt="">
+            <!-- <button  class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Alexa<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>The great wall of Benin is the second largest man-made structure after the Great wall of china and the largest manmade earth work in the world. it is estimated to be about 16000km in length.</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="Nigerian_recruits.jpg" alt=""><br>
+
+            <!-- <button class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Simisola<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>Before the british came , the northern Nigeria were already writing arabic and going to Arabic Schools. They adore  the dressing and the behaviour of the arabs especially how they leave thier stuffs to pray</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="cowries.jpg" alt="">
+            <!-- <button  class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Adewale<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>History of Nigeria Currency, Before the west african currency board was found, Nigeria already has its own form of cowries and manilas. The board was charged of issuing currency notes in the country. This was during the colonial master 1929 to 1959</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="av1.jpg" alt=""><br>
+
+            <!-- <button class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: bobola<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>How i won lottery in Gambia I was already a professional social worker when I entered the Peace Corps in 1980, so I wasn’t anticipating that my experience serving in The Gambia would change the course of my career.</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="adv2.jpg" alt="">
+            <!-- <button  class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Henry<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>How i won lottery in Gambia I was already a professional social worker when I entered the Peace Corps in 1980, so I wasn’t anticipating that my experience serving in The Gambia would change the course of my career.</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="av1.jpg" alt=""><br>
+
+            <!-- <button class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Henry<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>How i won lottery in Gambia I was already a professional social worker when I entered the Peace Corps in 1980, so I wasn’t anticipating that my experience serving in The Gambia would change the course of my career.</p>
+            <a class=" read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="adv2.jpg" alt="">
+            <!-- <button  class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Henry<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>How i won lottery in Gambia I was already a professional social worker when I entered the Peace Corps in 1980, so I wasn’t anticipating that my experience serving in The Gambia would change the course of my career.</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="av1.jpg" alt=""><br>
+            <!-- <button class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Henry<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>How i won lottery in Gambia I was already a professional social worker when I entered the Peace Corps in 1980, so I wasn’t anticipating that my experience serving in The Gambia would change the course of my career.</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="adv2.jpg" alt="">
+            <!-- <button class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Henry<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>How i won lottery in Gambia I was already a professional social worker when I entered the Peace Corps in 1980, so I wasn’t anticipating that my experience serving in The Gambia would change the course of my career.</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="av1.jpg" alt=""><br>
+            <!-- <button class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Henry<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>How i won lottery in Gambia I was already a professional social worker when I entered the Peace Corps in 1980, so I wasn’t anticipating that my experience serving in The Gambia would change the course of my career.</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+
+        <div class="column">
+            <h3>Read a Story</h3>
+
+            <img src="adv2.jpg" alt="">
+            <!-- <button class="pata">Read Damos Story by : Henry</button> -->
+            <h1>Read Damos story by: Henry<img src="pen.svg" class="edit" title="Click to edit"></h1>
+            <p>How i won lottery in Gambia I was already a professional social worker when I entered the Peace Corps in 1980, so I wasn’t anticipating that my experience serving in The Gambia would change the course of my career.</p>
+            <a class="read-now" href="">Read Now</a>
+            <a href="" class="Retrieve">Retrieve</a>
+        </div>
+    </div>
+    <p class="panther">Copyright 2023-2024 by Robert Gordon University. All Rights Reserved.
+        Designed by Adewale Tairu.</p>
+</body>
+
+</html>
